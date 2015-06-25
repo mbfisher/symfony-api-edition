@@ -1,0 +1,40 @@
+{
+    "name": "mbfisher/symfony-rest",
+    "authors": [
+        {
+            "name": "Mike Fisher",
+            "email": "mike@mbfisher.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "3.0.x-dev",
+        "symfony/asset": "3.0.x-dev",
+        "symfony/dependency-injection": "3.0.x-dev",
+        "symfony/config": "3.0.x-dev",
+        "symfony/event-dispatcher": "3.0.x-dev",
+        "symfony/http-foundation": "3.0.x-dev",
+        "symfony/http-kernel": "3.0.x-dev",
+        "symfony/filesystem": "3.0.x-dev",
+        "symfony/routing": "3.0.x-dev",
+        "symfony/debug": "3.0.x-dev",
+        "symfony/security-core": "3.0.x-dev",
+        "symfony/security-csrf": "3.0.x-dev",
+        "symfony/stopwatch": "3.0.x-dev",
+        "symfony/templating": "3.0.x-dev",
+        "symfony/translation": "3.0.x-dev",
+        "symfony/yaml": "3.0.x-dev",
+        "symfony/monolog-bundle": "3.0.x-dev",
+        "symfony/monolog-bridge": "3.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mbfisher/MonologBundle"
+        }
+    ]
+}

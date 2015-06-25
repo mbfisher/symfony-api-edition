@@ -1,0 +1,8 @@
+services:
+  app.controller.status:
+    class: AppBundle\Controller\StatusController
+
+  kernel.listener.http_not_found:
+    class: AppBundle\EventListener\HttpNotFoundListener
+    tags:
+      - {name: kernel.event_listener, event: kernel.exception, method: onKernelException}
